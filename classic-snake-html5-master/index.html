@@ -1,0 +1,33 @@
+<!doctype html>
+<head>
+    <title>Classic Snake - HTML5</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <meta charset="utf-8">
+</head>
+<body>
+    <div class="container">
+
+        <!-- Game Title and score !-->
+        <header>
+            <h1 class="title">Snake</h1>
+            <div class="scores-container">
+                <div class="score-container"></div>
+                <div class="best-container"></div>
+            </div>
+        </header>
+
+        <!-- Snake game canvas -->
+        <canvas id="snake-game" width="500" height="450"></canvas>
+
+        <div class="menu">
+            <h3 class="start">Start</h3>
+            <i>Press Space</i>
+        </div>
+    </div>
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <!-- Snake game js -->
+    <script src="js/snake.js"></script>
+</body>
